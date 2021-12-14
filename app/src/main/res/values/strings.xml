@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">banhang</string>
+    <string name="title_home">Trang Chủ</string>
+    <string name="title_favorite">Yêu Thích</string>
+    <string name="title_me">Tôi</string>
+    <string name="title_cart">Giỏ Hàng</string>
+    <string name="quen_mk"><u>Quên mật khẩu</u></string>
+    <string name="th_m_s_n_ph_m">Thêm sản phẩm</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/shadow_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <ImageView
+            android:id="@+id/image_sanpham"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/kengang"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/image_sanpham"
+            android:background="@color/black" />
+
+        <ImageButton
+            android:id="@+id/imgyeuthich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtgiatien"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@null"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:onClick="checkYeuThich"
+            android:padding="5dp"
+            app:srcCompat="@drawable/favorite_border_icon" />
+
+        <TextView
+            android:id="@+id/txttensp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kengang"
+            android:padding="5dp"
+            android:text="Tên sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtgiatien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttensp"
+            android:padding="5dp"
+            android:text="Giá sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txttenst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttensp"
+            android:layout_marginTop="36dp"
+            android:padding="5dp"
+            android:text="Tên siêu thi"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
